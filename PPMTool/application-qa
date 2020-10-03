@@ -1,0 +1,9 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${registry.host:localhost}:${registry.port:8777}/eureka/
+
+db:
+  username: suresh
+  password: "{cipher}e8a60b6bd8ac4f968d377eec193fc2188aa91a7e97aacf9967439ac0acdda343"
+  database: databasename
